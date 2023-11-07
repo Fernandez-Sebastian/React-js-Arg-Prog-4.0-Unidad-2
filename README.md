@@ -17,6 +17,7 @@ function suma (a,b,callback){
    let c = a +b;  
    callback();  
 }
+
 ¿Que es el tercer parámetro recibido?
 
 -El tercer parametro recibido es una función que se pasa como argumento. El propósito de un callback es permitir que una función sea ejecutada después de que otra función haya finalizado su ejecución. 
