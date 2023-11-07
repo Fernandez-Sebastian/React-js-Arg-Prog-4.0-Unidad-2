@@ -44,3 +44,10 @@ Desarrollador una calculadora que tenga:
 Al realizar la cuenta se deberá actualizar el campo resultado.
 
 
+Comentarios: 
+-La calculadora puede saber que signo va entre dos numeros, aunque presiones muchos signos, dejando como correcto el ultimo ingresado.
+
+
+
+
+
