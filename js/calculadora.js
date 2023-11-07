@@ -48,7 +48,9 @@ botones.forEach((boton) => {
     })
 });
 
-//primero armo el string mientras va haciendo click en los botones. Si hace click en igual, CE o C llama a calcular con lo que venis guardadndo
+//primero armo el string mientras va haciendo click en los botones. 
+//Mientras aprietes numeros o signos arma la cadena.
+//Si hace click en igual y llama a calcular con lo que venis guardadndo.
 
 
 function calcular(pantalla){
@@ -110,9 +112,13 @@ function calcular(pantalla){
 }
 
 
+//Devuelve el ultimo caracter de la cadena pasada por parametro.
+
 function ultimoSigno(signos){
     return signos[signos.length - 1];
 }
+
+//Pasandole por parametro la cadena con la cuenta, devuelve el resultado de la cadena.
 
 function calcularResultado(cadena){
     let resultado = eval(cadena);
