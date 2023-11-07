@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100%;
+    background-color: greenyellow;
+}
+/* button{
+    width: 25%;
+} */
+
+/* .botones button{
+    background-color: black;
+
+
+} */
+/* .botones{
+    display: flex;
+    align-items: center;
+} */
+
+body, html {
+    height: 100%;
+  }
+  .calculator-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    min-width: 250;
+  }
+  #igual{
+    justify-content: center;
+
+  }
